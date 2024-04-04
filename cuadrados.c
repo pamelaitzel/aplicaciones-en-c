@@ -8,6 +8,7 @@ int main() {
         int cubo = i * i * i;
         printf("Número: %d, Cuadrado: %d, Cubo: %d\n", i, cuadrado, cubo);
         i++;
+        
     }
 
     return 0;
