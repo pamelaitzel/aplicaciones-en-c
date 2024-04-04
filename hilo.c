@@ -6,9 +6,11 @@ void *funcionHilo(void *arg) {
     pthread_exit(NULL);
 }
 
+
 int main() {
     pthread_t hilo;
     pthread_create(&hilo, NULL, funcionHilo, NULL);
     pthread_join(hilo, NULL);
     return 0;
+
 }
